@@ -123,9 +123,9 @@ These metrics demonstrate the model’s ability to accurately identify disruptio
 
 ### Team Members:
 - [Dipak Ghadge](https://github.com/Dipak10016)
-- [Atharva Golwalkar]()
+- [Atharva Golwalkar](https://github.com/atharvagolwalkar)
 - [Atharva Kaskar](https://github.com/Atharva-Kaskar-45)
-- Prem Rana
+- [Prem Rana](https://github.com/Prem16-pro)
 
 ---
 
