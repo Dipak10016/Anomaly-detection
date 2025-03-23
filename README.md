@@ -59,6 +59,10 @@ Additionally, the system should integrate **NLP-based Text Extraction** from tre
    - Automatically fetch, preprocess, and extract relevant insights such as **emerging risks**, **product launches**, and **industry trends**.
 
 ---
+**DEMO VIDEO OF Realtime Mobile Notification System**
+
+
+https://github.com/user-attachments/assets/db364dfc-0371-44b6-9f85-d7a45622a656
 
 ## Technologies Used 🧑‍💻
 
@@ -118,9 +122,9 @@ These metrics demonstrate the model’s ability to accurately identify disruptio
 **Team Name**: SIES Falcon 🦅
 
 ### Team Members:
-- Dipak Ghadge
-- Atharva Golwalkar
-- Atharva Kaskar
+- [Dipak Ghadge](https://github.com/Dipak10016)
+- [Atharva Golwalkar]()
+- [Atharva Kaskar](https://github.com/Atharva-Kaskar-45)
 - Prem Rana
 
 ---
