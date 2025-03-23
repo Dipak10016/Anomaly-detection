@@ -46,11 +46,7 @@ Additionally, the system should integrate **NLP-based Text Extraction** from tre
    - Send **real-time notifications** to mobile devices when critical disruptions or risks are detected.
    - Enable managers to take immediate action based on the latest data.
 
-6. **Future Product Predictions** 🔮:
-   - Use **machine learning** to predict future demand fluctuations, potential disruptions, and trends in supply chain performance.
-   - Provide **forecasts** to optimize inventory and plan proactively for potential issues.
-
-7. **NLP Text Extraction from Trending FMCG News** 📰:
+6. **NLP Text Extraction from Trending FMCG News** 📰:
    - Implement **NLP** techniques to extract key information from trending FMCG news articles.
    - Automatically fetch, preprocess, and extract relevant insights such as **emerging risks**, **product launches**, and **industry trends**.
 
@@ -58,7 +54,7 @@ Additionally, the system should integrate **NLP-based Text Extraction** from tre
 
 ## Technologies Used 🧑‍💻
 
-- **Backend**: Python (Flask/Django)
+- **Backend**: Python (Flask)
 - **Machine Learning**: 
   - Scikit-learn (IsolationForest, RandomForestClassifier, StandardScaler, PCA, DBSCAN)
   - Pandas
