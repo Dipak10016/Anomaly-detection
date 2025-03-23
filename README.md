@@ -1,160 +1,153 @@
-# Diagnostic Analytics System for Supply Chain Disruptions
+Diagnostic Analytics: Root Cause Analysis for Supply Chain Disruptions in FMCG 🚚
+Project Overview 🛠️
+FMCG (Fast-Moving Consumer Goods) companies frequently face supply chain disruptions due to various factors such as unforeseen demand fluctuations, supplier delays, logistics bottlenecks, and regional economic challenges. Traditional methods focus mainly on post-incident reporting and response, leaving supply chain managers reactive rather than proactive.
 
-## Project Overview
-In this project, we developed an AI-driven diagnostic analytics system designed to help FMCG (Fast-Moving Consumer Goods) companies mitigate supply chain disruptions. By leveraging historical data and real-time inputs, the system dynamically identifies recurring patterns, performs root cause analysis, and recommends proactive countermeasures. The system aims to help supply chain managers take action before disruptions occur.
+Our AI-driven Diagnostic Analytics System dynamically identifies recurring patterns that lead to disruptions, performs real-time root cause analysis, and recommends proactive actions to mitigate risks. This system helps supply chain managers act before disruptions escalate, improving efficiency, reducing losses, and enhancing supply chain resilience.
 
-## Problem Statement
-FMCG companies frequently face supply chain disruptions due to various factors such as unforeseen demand fluctuations, supplier delays, logistics bottlenecks, and regional economic factors. Traditional methods focus on post-incident reporting, but our solution provides a real-time approach to identifying root causes and taking preventive action.
+Additionally, we've integrated NLP-based Text Extraction from trending FMCG news articles to keep supply chain managers updated on industry trends, emerging risks, and news that could affect their operations.
 
-## Objectives
-* Analyze historical disruptions to detect recurring patterns in supply chain failures.
+Problem Statement 🧠
+FMCG companies face frequent supply chain disruptions due to unforeseen demand fluctuations, supplier delays, logistics bottlenecks, and regional economic factors. Traditional methods focus on post-incident reporting rather than real-time root cause identification. The challenge is to build an AI-driven diagnostic analytics system that dynamically identifies patterns leading to disruptions and pinpoints the root cause, enabling supply chain managers to take proactive action.
 
-* Develop an anomaly detection model that flags potential supply chain risks.
+Additionally, the system should also integrate NLP-based Text Extraction from trending FMCG news articles to help managers stay informed about any external developments that might impact their supply chain operations.
 
-* Implement causal inference techniques to determine the true drivers of disruptions (weather impact, supplier performance, transport failures).
+Project Objectives 🎯
+Historical Disruption Analysis:
 
-* Create a real-time interactive dashboard to alert managers about emerging risks and suggest countermeasures.
+Analyze historical disruptions to identify recurring patterns in supply chain failures.
 
-* Provide a self-learning system that refines its predictions based on new incoming data.
+Visualize disruption frequency by region and type of disruption using heatmaps. 🌍
 
-## Features
-  1. Historical Disruption Analysis:
+Real-Time Risk Detection:
 
-     Identifies and visualizes recurring patterns in supply chain disruptions.
-  
-     Heatmap for disruption frequency, categorized by region and type of disruption.
+Develop an anomaly detection model that flags potential supply chain risks before they occur.
 
-  2. Real-Time Risk Detection:
+Alert supply chain managers when key metrics (e.g., delivery delays, weather events) deviate from normal behavior. ⚠️
 
-      A multi-variable anomaly detection model flags potential risks before they materialize.
-      
-      Alerts supply chain managers when specific metrics (e.g., delivery delays, weather events) deviate from normal behavior.
+Root Cause Analysis:
 
-  3. Root Cause Analysis:
-      
-      Causal inference techniques determine the root causes of disruptions, whether they stem from weather conditions, supplier issues, or logistics bottlenecks.
-      
-      Provides detailed insights on the drivers of each disruption event.
+Implement causal inference techniques to determine the primary causes behind disruptions, such as weather, transport issues, or supplier delays. 🔎
 
-  4. Interactive Dashboard:
+Provide actionable insights into the drivers of each disruption to prevent future occurrences.
 
-      Real-time visualization of key metrics (e.g., delivery times, supplier delays, inventory levels).
-      
-      Interactive charts and filters for drilling down into specific disruptions or regions.
-      
-      Recommendations for countermeasures and risk mitigation strategies.
-      
-  5. Self-Learning System:
-      
-      Continuously learns from newly incoming data to improve the accuracy of predictions and risk identification.
-      
-      Adapts to changing patterns in disruptions and adjusts predictions dynamically.
+Interactive Dashboard:
 
-## System Architecture
+Build a user-friendly, real-time dashboard to visualize supply chain metrics and risks.
 
-  1. Data Collection:
+Include interactive filters and charts to help managers drill down into specific disruptions or regions. 📊
 
-      Aggregates historical supply chain data from multiple sources: sales data, inventory data, supplier performance, production data, logistics data, and external factors (weather, economic, etc.).
+Self-Learning System:
 
-  2. Anomaly Detection:
+Continuously improve predictions by learning from incoming data, refining the model for better risk detection. 🧠
 
-      Uses statistical and machine learning techniques (e.g., isolation forests, time series anomaly detection) to identify deviations from expected patterns.
+Adapt the system to evolving patterns of disruptions, enhancing its effectiveness over time. 🔄
 
-  3. Causal Inference:
+Real-Time Mobile Notifications 📱:
 
-      Implements causal inference techniques (e.g., Granger Causality, Bayesian Networks) to uncover the true drivers behind supply chain disruptions.
+Send real-time notifications to supply chain managers’ mobile devices when critical disruptions or risks are detected.
 
-  4. Dashboard Frontend:
+Enable managers to take immediate action or make informed decisions based on the latest data.
 
-      Built with [React/Tailwind] to provide an interactive interface for real-time monitoring and alerts.
+Future Product Predictions 🔮:
 
-      Key visualizations include heatmaps, line graphs, pie charts, and detailed risk reports.
+Use machine learning to predict future demand fluctuations, potential disruptions related to products, and trends in supply chain performance.
 
-  5. Backend:
+Provide forecasts to help managers optimize inventory levels and plan proactively for potential issues.
 
-      [Flask/Django] API for handling data inputs, anomaly detection, and causal inference processing.
-      
-      Real-time data pipeline integration for seamless updates.
+NLP Text Extraction from Trending FMCG News 📰:
 
-### Installation
-To set up the system locally, follow these steps:
+Implement NLP techniques to extract key information from trending FMCG news articles.
 
-Clone the repository:
+Automatically fetch the latest news from sources, preprocess the content, and extract relevant insights, such as emerging risks, product launches, and industry trends.
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/diagnostic-supplychain-analytics.git
-cd diagnostic-supplychain-analytics
-Install dependencies:
+Provide managers with timely news updates that could impact their supply chain operations.
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Run the backend server:
+Technologies Used 🧑‍💻
+Backend: Python (Flask/Django)
 
-bash
-Copy
-Edit
-python app.py
-Run the frontend:
+Machine Learning:
 
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm start
-Access the application at http://localhost:3000.
+Scikit-learn (IsolationForest, RandomForestClassifier, StandardScaler, PCA, DBSCAN)
 
-Technologies Used
-Backend: Python (Flask or Django)
+Pandas
 
-Frontend: React.js, Tailwind CSS
+NumPy
 
-Database: PostgreSQL (or MySQL)
+Time Series:
 
-Machine Learning: Scikit-learn, TensorFlow, Pandas
+Statsmodels (Granger Causality, VAR models)
 
-Data Visualization: Plotly, D3.js, Matplotlib
+Data Visualization:
 
-Deployment: Docker, AWS (or Heroku)
+Matplotlib
 
-How It Works
-Data Ingestion: Aggregates sales, inventory, supplier, logistics, and external factors data.
+Seaborn
 
-Anomaly Detection: Flags outliers and potential risks based on data patterns.
+Plotly (Plotly Express, Plotly Graph Objects)
 
-Causal Inference: Determines the most likely cause for each disruption.
+Web Scraping & NLP: BeautifulSoup, SpaCy, NLTK, Scrapy
 
-Dashboard Interface: Displays real-time risks and suggests countermeasures.
+Model Persistence: Joblib
 
-Results
-Proactive Risk Identification: Reduced disruptions by 30% through early anomaly detection.
+Real-Time Data Processing: WebSocket, Celery
 
-Improved Supplier Management: Pinpointed recurring supplier delays and recommended alternative sources.
+Network Visualization: NetworkX
 
-Real-Time Insights: Provided managers with real-time alerts and recommendations, leading to more efficient decision-making.
+Time Management: datetime, timedelta
 
-Future Work
-Extend to Additional Regions: Include supply chain data from multiple regions worldwide.
+Methods Used 🔧
+Isolation Forest:
 
-Integration with IoT Sensors: Real-time tracking of shipments and inventory using IoT for more granular insights.
+Used for anomaly detection. It is an unsupervised learning algorithm ideal for identifying outliers and disruptions in supply chain data. It helps to detect patterns that deviate from the norm, allowing the system to flag potential risks before they materialize.
 
-Advanced Predictive Models: Implement deep learning for more accurate predictions and pattern recognition.
+Random Forest:
 
-Contributing
-We welcome contributions! Please read our contributing guidelines for more details.
+A supervised machine learning algorithm used for classification and regression tasks. It builds multiple decision trees and merges them together to get a more accurate and stable prediction, helping identify causes of disruptions based on historical data.
 
-License
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+PCA (Principal Component Analysis):
 
-Contact
+A dimensionality reduction technique used to reduce the complexity of high-dimensional data while retaining its essential features. PCA is used to simplify the dataset for better visualization and model training, helping identify key factors contributing to supply chain issues.
+
+DBSCAN (Density-Based Spatial Clustering of Applications with Noise):
+
+A clustering algorithm used to detect patterns or outliers in data, such as unusual disruption events or emerging trends. DBSCAN is particularly useful for identifying areas of the supply chain that may need attention due to abnormal behavior.
+
+Time Series Analysis:
+
+Using VAR (Vector Autoregression) and Granger Causality, time series models help capture the relationship between multiple time-dependent variables, such as sales, inventory, and external factors like weather. These models help predict future supply chain disruptions and identify causal relationships between variables.
+
+NLP (Natural Language Processing):
+
+Text extraction from trending FMCG news articles to identify key insights, such as product launches, market trends, or external disruptions that may impact supply chains. NLP techniques like Named Entity Recognition (NER) and sentiment analysis are used to extract valuable information from unstructured news text.
+
+Performance Metrics 📊
+The performance of the model is evaluated based on key metrics, and here are the results:
+
+Accuracy: 0.8778
+
+Precision: 0.8597
+
+Recall: 0.8703
+
+F1 Score: 0.8649
+
+These performance metrics demonstrate the model's ability to identify disruptions and risks accurately, offering a balanced precision and recall.
+
+Team 👥
+Team Name: SIES Falcon 🦅
+
+Team Members:
+
+Dipak Ghadge
+
+Atharva Golwalkar
+
+Atharva Kaskar
+
+Prem Rana
+
+Contact 📧
 For more information or inquiries, please reach out to the project team:
 
-Your Name – Project Lead
-
-Team Member 1
-
-Team Member 2
+Dipak Ghadge
+dipakghadge2004@gmail.com
