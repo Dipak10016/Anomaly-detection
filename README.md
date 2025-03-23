@@ -59,8 +59,8 @@ Additionally, the system should integrate **NLP-based Text Extraction** from tre
    - Automatically fetch, preprocess, and extract relevant insights such as **emerging risks**, **product launches**, and **industry trends**.
 
 ---
-**DEMO VIDEO OF Realtime Mobile Notification System**
-
+**DEMO VIDEO OF Realtime Mobile Notification System :** 
+Video Shows Realtime Notification system to buy certain product stocks which are Popular in Market News.
 
 https://github.com/user-attachments/assets/db364dfc-0371-44b6-9f85-d7a45622a656
 
