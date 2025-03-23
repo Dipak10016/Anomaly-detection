@@ -119,10 +119,13 @@ These metrics demonstrate the model’s ability to accurately identify disruptio
 ## Histogram Disruption Analysis:
 ![Image](https://github.com/user-attachments/assets/b68c828f-8ea8-43b0-89b4-b402f339cfec)
 
-**DEMO VIDEO OF Realtime Mobile Notification System :** 
+## DEMO VIDEO OF Realtime Mobile Notification System : 
+
+
 Video Shows Realtime Notification system to buy certain product stocks which are Popular in Market News.
 
 https://github.com/user-attachments/assets/db364dfc-0371-44b6-9f85-d7a45622a656
+
 ---
 
 ## Team 👥
