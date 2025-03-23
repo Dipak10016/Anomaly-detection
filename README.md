@@ -107,21 +107,22 @@ Additionally, the system should integrate **NLP-based Text Extraction** from tre
 
 These metrics demonstrate the model’s ability to accurately identify disruptions and risks, offering a balanced precision and recall.
 ---
+
+---
+***Images Of Webpages Created :***
+***Dashboard View :***
+![Image](https://github.com/user-attachments/assets/b0570dd3-d536-4260-b915-1aa2c4a3aa39)
+***Anomaly Timeline:***
+![Image](https://github.com/user-attachments/assets/e01d7727-54fb-465f-a8e3-3fd8fc18a3dd)
+***Anomaly Detection:***
+![Image](https://github.com/user-attachments/assets/9e7acfe6-6e9c-4ac8-9984-e26699e0e4a8)
+***Histogram Disruption Analysis:***
+![Image](https://github.com/user-attachments/assets/b68c828f-8ea8-43b0-89b4-b402f339cfec)
+
 **DEMO VIDEO OF Realtime Mobile Notification System :** 
 Video Shows Realtime Notification system to buy certain product stocks which are Popular in Market News.
 
 https://github.com/user-attachments/assets/db364dfc-0371-44b6-9f85-d7a45622a656
-
----
-***Images Of Webpages Created :***
-![Image](https://github.com/user-attachments/assets/a74f9865-43c7-4848-947f-56f655728e2a)
-
-![Image](https://github.com/user-attachments/assets/4b225196-8af4-4062-ae25-cca4242caad5)
-
-![Image](https://github.com/user-attachments/assets/6d1ecca0-9529-4cbc-8f50-d79cc8e2d7ac)
-
-![Image](https://github.com/user-attachments/assets/b1c102f3-27c2-4b26-82d3-479e799b5bde)
-
 ---
 
 ## Team 👥
