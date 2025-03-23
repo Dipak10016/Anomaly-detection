@@ -42,19 +42,15 @@ Additionally, the system should integrate **NLP-based Text Extraction** from tre
    - Build a **user-friendly, real-time dashboard** to visualize supply chain metrics and risks.
    - Include interactive **filters** and **charts** to help managers drill down into specific disruptions or regions 📊.
 
-5. **Self-Learning System**:
-   - Continuously improve predictions by learning from incoming data, refining the model for better **risk detection** 🧠.
-   - Adapt the system to evolving disruption patterns, enhancing its effectiveness over time 🔄.
-
-6. **Real-Time Mobile Notifications** 📱:
+5. **Real-Time Mobile Notifications** 📱:
    - Send **real-time notifications** to mobile devices when critical disruptions or risks are detected.
    - Enable managers to take immediate action based on the latest data.
 
-7. **Future Product Predictions** 🔮:
+6. **Future Product Predictions** 🔮:
    - Use **machine learning** to predict future demand fluctuations, potential disruptions, and trends in supply chain performance.
    - Provide **forecasts** to optimize inventory and plan proactively for potential issues.
 
-8. **NLP Text Extraction from Trending FMCG News** 📰:
+7. **NLP Text Extraction from Trending FMCG News** 📰:
    - Implement **NLP** techniques to extract key information from trending FMCG news articles.
    - Automatically fetch, preprocess, and extract relevant insights such as **emerging risks**, **product launches**, and **industry trends**.
 
