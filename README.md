@@ -110,13 +110,13 @@ These metrics demonstrate the model’s ability to accurately identify disruptio
 
 ---
 ***Images Of Webpages Created :***
-***Dashboard View :***
+## Dashboard View :
 ![Image](https://github.com/user-attachments/assets/b0570dd3-d536-4260-b915-1aa2c4a3aa39)
-***Anomaly Timeline:***
+## Anomaly Timeline:
 ![Image](https://github.com/user-attachments/assets/e01d7727-54fb-465f-a8e3-3fd8fc18a3dd)
-***Anomaly Detection:***
+## Anomaly Detection:
 ![Image](https://github.com/user-attachments/assets/9e7acfe6-6e9c-4ac8-9984-e26699e0e4a8)
-***Histogram Disruption Analysis:***
+## Histogram Disruption Analysis:
 ![Image](https://github.com/user-attachments/assets/b68c828f-8ea8-43b0-89b4-b402f339cfec)
 
 **DEMO VIDEO OF Realtime Mobile Notification System :** 
