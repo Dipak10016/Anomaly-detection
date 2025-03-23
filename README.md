@@ -115,9 +115,13 @@ These metrics demonstrate the model’s ability to accurately identify disruptio
 Video Shows Realtime Notification system to buy certain product stocks which are Popular in Market News.
 
 https://github.com/user-attachments/assets/db364dfc-0371-44b6-9f85-d7a45622a656
+
 ---
 ***Images Of Webpages Created :***
 ![Image](https://github.com/user-attachments/assets/a74f9865-43c7-4848-947f-56f655728e2a)
+
+![Image](https://github.com/user-attachments/assets/4b225196-8af4-4062-ae25-cca4242caad5)
+
 ---
 
 ## Team 👥
